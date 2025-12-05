@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Results summary component</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
@@ -30,23 +25,35 @@
       
       <div class="right-card">
         <div class="summary">Summary</div>
-        <div>
-          Reaction
-          80 / 100
+        <div class="box box1">
+          <div class="left">
+          <img src="assets/images/icon-reaction.svg" alt="flash-icon">
+          <span>Reaction</span>
+          </div>
+          <span><strong>80</strong> / 100</span>
         </div>
-        <div>
-          Memory
-          92 / 100
+        <div class="box box2">
+          <div class="left">
+            <img src="assets/images/icon-memory.svg" alt="brain-icon">
+            <span>Memory</span>
+          </div>
+          <span><strong>92</strong> / 100</span>
         </div>
-        <div>
-          Verbal
-          61 / 100
+        <div class="box box3">
+          <div class="left">
+            <img src="assets/images/icon-verbal.svg" alt="bubble-icon">
+            <span>Verbal</span>
+          </div>
+          <span><strong>61</strong> / 100</span>
         </div>
-        <div>
-          Visual
-          72 / 100
+        <div class="box box4">
+          <div class="left">
+            <img src="assets/images/icon-visual.svg" alt="eye-icon">
+            <span>Visual</span>
+          </div>
+          <span><strong>72</strong> / 100</span>
         </div>
-        <button>Continue</button>
+        <button class="button">Continue</button>
       </div>
     </div>
   </main>
